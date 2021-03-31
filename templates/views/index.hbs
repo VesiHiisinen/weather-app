@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/icon.png">
+    <script src="/js/script.js" defer></script>
+    <title>Weather</title>
+</head>
+
+<body>
+    {{>header}}
+    <h2>Insert a place name to get the current weather</h2>
+    <form action="#" id="weatherForm">
+        <label for="city">City / Town / Willage</label><br>
+        <input type="text" id="city" name="city">
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <div id="resultContainer">
+        <p id="weatherResult">&nbsp;</p>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

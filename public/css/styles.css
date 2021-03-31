@@ -1,0 +1,90 @@
+body {
+  font-family: Verdana, Arial, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  color: gray;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+footer {
+  background-color: darkred;
+  color: white;
+}
+
+.footer {
+  padding: 7px;
+}
+
+.navigation {
+  margin-bottom: 30px;
+}
+
+#four-oh-four {
+  color: black;
+}
+
+.navigation-container {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.four-o-four {
+  width: 600px;
+  height: auto;
+}
+
+.navigation a {
+  color: white;
+  width: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 30px;
+  padding: 9px;
+}
+
+a.not-current-page {
+  background-color: lightblue;
+}
+
+a:link {
+  background-color: blue;
+}
+a:hover {
+  color: orange !important;
+}
+a:visited {
+  color: white;
+}
+
+.navigation :first-child {
+  margin-left: initial;
+}
+
+#weatherResult {
+  font-size: 16px;
+}
+
+.light-gray {
+  color: lightgray;
+}
+
+input {
+  border-radius: 5px;
+  margin-top: 3px;
+  padding: 5px;
+}
+
+#submit {
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+}
