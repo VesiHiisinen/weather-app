@@ -30,7 +30,7 @@ function weatherFetcher() {
       return console.log("I ain't doin' nothing");
     }
 
-    fetch(`http://localhost:3000/weather?city=${encodeURIComponent(cityValue)}`)
+    fetch(`/weather?city=${encodeURIComponent(cityValue)}`)
       .then((response) => {
         response
           .json()
