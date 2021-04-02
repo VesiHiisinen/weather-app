@@ -83,7 +83,7 @@ app.get("/weather", (req, res) => {
       lat,
       long,
       city,
-      (err, { city, description, feelslike, temperature }) => {
+      (err, { city, description, feelslike, temperature } = {}) => {
         if (err) {
           return res.send({ error: err.message });
         }
