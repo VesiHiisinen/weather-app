@@ -7,7 +7,7 @@ import geocode from "./utils/geocode.mjs";
 import weather from "./utils/weather.mjs";
 
 const app = express();
-const port = process.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
